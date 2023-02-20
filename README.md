@@ -21,10 +21,7 @@
 
 ### 🏠 [Homepage](https://github.com/joellesenne/express-validation-error#readme)
 
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-
-**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+**Table of Contents**
 
 - [Prerequisites](#prerequisites)
 - [Install](#install)
@@ -35,8 +32,6 @@
 - [Show your support](#show-your-support)
 - [📝 License](#-license)
 
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
-
 ## Prerequisites
 
 - node >=16.0.0
@@ -46,10 +41,10 @@
 
 Use simple Middleware to manage exceptions for Express [@joellesenne/express-async-handler](https://github.com/joellesenne/express-async-handler)
 ```sh
-npm install --save-dev @joellesenne/express-async-handler @joellesenne/express-error-handler
+npm install --save-dev @joellesenne/express-async-handler @joellesenne/express-validation-error
 
 # OR
-yarn add -D @joellesenne/express-async-handler @joellesenne/express-error-handler
+yarn add -D @joellesenne/express-async-handler @joellesenne/express-validation-error
 ```
 
 ## Usage
@@ -92,13 +87,10 @@ Contributions, issues and feature requests are welcome!<br />Feel free to check 
 Give a ⭐️ if this project helped you!
 
 <a href="https://www.patreon.com/joellesenne">
-  <img src="https://c5.patreon.com/external/logo/become_a_patron_button@2x.png" width="160">
+  <img  alt="Become a patron" src="https://c5.patreon.com/external/logo/become_a_patron_button@2x.png" width="160">
 </a>
 
 ## 📝 License
 
 Copyright © 2021 [Joël Lesenne](https://github.com/joellesenne). <br />
 This project is [MIT](https://github.com/joellesenne/express-validation-error/blob/master/LICENSE) licensed.
-
-***
-_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_

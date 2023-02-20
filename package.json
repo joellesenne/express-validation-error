@@ -1,0 +1,74 @@
+{
+    "name": "@joellesenne/express-validation-error",
+    "version": "1.0.5",
+    "private": false,
+    "description": "Simple Middleware to manage exceptions within express error in asynchronous",
+    "keywords": [
+        "Express",
+        "ValidationError",
+        "errorHandler",
+        "Mocha"
+    ],
+    "homepage": "https://github.com/joellesenne/express-validation-error#readme",
+    "bugs": {
+        "url": "https://github.com/joellesenne/express-validation-error/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/joellesenne/express-validation-error.git"
+    },
+    "license": "MIT",
+    "author": {
+        "name": "Joël Lesenne",
+        "email": "contact@joellesenne.dev",
+        "url": "https://joellesenne.dev"
+    },
+    "main": "lib/ValidationError.js",
+    "directories": {
+        "lib": "lib"
+    },
+    "scripts": {
+        "prettier": "prettier --write 'lib/**/*.js'",
+        "prettier:onchange": "onchange 'lib/**/*.js' -- prettier --write {{changed}}",
+        "test:mocha": "mocha test/index.test.js"
+    },
+    "devDependencies": {
+        "@babel/core": "7.20.12",
+        "@babel/eslint-parser": "7.19.1",
+        "babel-core": "6.26.3",
+        "babel-plugin-transform-runtime": "6.23.0",
+        "babel-preset-env": "1.7.0",
+        "chai": "4.3.7",
+        "eslint": "8.34.0",
+        "eslint-config-prettier": "8.6.0",
+        "eslint-config-standard": "17.0.0",
+        "eslint-plugin-import": "2.27.5",
+        "eslint-plugin-node": "11.1.0",
+        "eslint-plugin-prettier": "4.2.1",
+        "eslint-plugin-promise": "6.1.1",
+        "mocha": "10.2.0",
+        "onchange": "7.1.0",
+        "prettier": "2.8.4"
+    },
+    "engines": {
+        "node": ">=16.0.0",
+        "npm": ">=7.13.0"
+    },
+    "standard": {
+        "globals": [
+            "describe",
+            "context",
+            "before",
+            "beforeEach",
+            "after",
+            "afterEach",
+            "it",
+            "expect"
+        ]
+    },
+    "pnpm": {
+        "overrides": {
+            "nanoid@<3.1.31": ">=3.1.31"
+        }
+    }
+}

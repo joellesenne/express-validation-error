@@ -11,7 +11,7 @@ specifiers:
   babel-preset-env: 1.7.0
   chai: 4.3.7
   eslint: 8.34.0
-  eslint-config-prettier: 8.6.0
+  eslint-config-prettier: 8.8.0
   eslint-config-standard: 17.0.0
   eslint-plugin-import: 2.27.5
   eslint-plugin-node: 11.1.0
@@ -29,11 +29,11 @@ devDependencies:
   babel-preset-env: 1.7.0
   chai: 4.3.7
   eslint: 8.34.0
-  eslint-config-prettier: 8.6.0_eslint@8.34.0
+  eslint-config-prettier: 8.8.0_eslint@8.34.0
   eslint-config-standard: 17.0.0_64lqc4abskaajyxyqyvzpvimeu
   eslint-plugin-import: 2.27.5_eslint@8.34.0
   eslint-plugin-node: 11.1.0_eslint@8.34.0
-  eslint-plugin-prettier: 4.2.1_u5wnrdwibbfomslmnramz52buy
+  eslint-plugin-prettier: 4.2.1_jconwxx2oyjg5lthwwzj36ffwa
   eslint-plugin-promise: 6.1.1_eslint@8.34.0
   mocha: 10.2.0
   onchange: 7.1.0
@@ -1367,8 +1367,8 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  /eslint-config-prettier/8.6.0_eslint@8.34.0:
-    resolution: {integrity: sha512-bAF0eLpLVqP5oEVUFKpMA+NnRFICwn9X8B5jrR9FcqnYBuPbqWEjTEspPWMj5ye6czoSLDweCzSo3Ko7gGrZaA==}
+  /eslint-config-prettier/8.8.0_eslint@8.34.0:
+    resolution: {integrity: sha512-wLbQiFre3tdGgpDv67NQKnJuTlcUVYHas3k+DZCc2U2BadthoEY4B7hLPvAxaqdyOGCzuLfii2fqGph10va7oA==}
     hasBin: true
     peerDependencies:
       eslint: '>=7.0.0'
@@ -1485,7 +1485,7 @@ packages:
       semver: 6.3.0
     dev: true
 
-  /eslint-plugin-prettier/4.2.1_u5wnrdwibbfomslmnramz52buy:
+  /eslint-plugin-prettier/4.2.1_jconwxx2oyjg5lthwwzj36ffwa:
     resolution: {integrity: sha512-f/0rXLXUt0oFYs8ra4w49wYZBG5GKZpAYsJSm6rnYL5uVDjd+zowwMwVZHnAjf4edNrKpCDYfXDgmRE/Ak7QyQ==}
     engines: {node: '>=12.0.0'}
     peerDependencies:
@@ -1497,7 +1497,7 @@ packages:
         optional: true
     dependencies:
       eslint: 8.34.0
-      eslint-config-prettier: 8.6.0_eslint@8.34.0
+      eslint-config-prettier: 8.8.0_eslint@8.34.0
       prettier: 2.8.4
       prettier-linter-helpers: 1.0.0
     dev: true

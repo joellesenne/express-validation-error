@@ -19,7 +19,7 @@ specifiers:
   eslint-plugin-promise: 6.1.1
   mocha: 10.2.0
   onchange: 7.1.0
-  prettier: 2.8.4
+  prettier: 2.8.7
 
 devDependencies:
   '@babel/core': 7.20.12
@@ -33,11 +33,11 @@ devDependencies:
   eslint-config-standard: 17.0.0_64lqc4abskaajyxyqyvzpvimeu
   eslint-plugin-import: 2.27.5_eslint@8.34.0
   eslint-plugin-node: 11.1.0_eslint@8.34.0
-  eslint-plugin-prettier: 4.2.1_u5wnrdwibbfomslmnramz52buy
+  eslint-plugin-prettier: 4.2.1_4maw6o6zkc3h6pleawjwftedlq
   eslint-plugin-promise: 6.1.1_eslint@8.34.0
   mocha: 10.2.0
   onchange: 7.1.0
-  prettier: 2.8.4
+  prettier: 2.8.7
 
 packages:
 
@@ -1485,7 +1485,7 @@ packages:
       semver: 6.3.0
     dev: true
 
-  /eslint-plugin-prettier/4.2.1_u5wnrdwibbfomslmnramz52buy:
+  /eslint-plugin-prettier/4.2.1_4maw6o6zkc3h6pleawjwftedlq:
     resolution: {integrity: sha512-f/0rXLXUt0oFYs8ra4w49wYZBG5GKZpAYsJSm6rnYL5uVDjd+zowwMwVZHnAjf4edNrKpCDYfXDgmRE/Ak7QyQ==}
     engines: {node: '>=12.0.0'}
     peerDependencies:
@@ -1498,7 +1498,7 @@ packages:
     dependencies:
       eslint: 8.34.0
       eslint-config-prettier: 8.6.0_eslint@8.34.0
-      prettier: 2.8.4
+      prettier: 2.8.7
       prettier-linter-helpers: 1.0.0
     dev: true
 
@@ -2428,8 +2428,8 @@ packages:
       fast-diff: 1.2.0
     dev: true
 
-  /prettier/2.8.4:
-    resolution: {integrity: sha512-vIS4Rlc2FNh0BySk3Wkd6xmwxB0FpOndW5fisM5H8hsZSxU2VWVB5CWIkIjWvrHjIhxk2g3bfMKM87zNTrZddw==}
+  /prettier/2.8.7:
+    resolution: {integrity: sha512-yPngTo3aXUUmyuTjeTUT75txrf+aMh9FiD7q9ZE/i6r0bPb22g4FsE6Y338PQX1bmfy08i9QQCB7/rcUAVntfw==}
     engines: {node: '>=10.13.0'}
     hasBin: true
     dev: true

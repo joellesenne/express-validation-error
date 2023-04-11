@@ -34,13 +34,15 @@
 
 ## Prerequisites
 
-- node >=16.0.0
-- npm >=7.13.0
+This project requires [node](https://nodejs.org) and [npm](https://npmjs.com). Go check them out if you don't have them locally installed.
 
 ## Install
 
 Use simple Middleware to manage exceptions for Express [@joellesenne/express-async-handler](https://github.com/joellesenne/express-async-handler)
 ```sh
+pnpm install --D @joellesenne/express-async-handler @joellesenne/express-validation-error
+
+# OR
 npm install --save-dev @joellesenne/express-async-handler @joellesenne/express-validation-error
 
 # OR
@@ -49,16 +51,21 @@ yarn add -D @joellesenne/express-async-handler @joellesenne/express-validation-e
 
 ## Usage
 
+This code is an Express.js HTTP GET route which is using an asyncHandler. It attempts to find 'foo' using the findAll() function, and if it doesn't exist, it throws a ValidationError which can be handled by the next function. If it successfully finds 'foo', the response will send the data (bar) back to the client.
+
 ```sh
 const asyncHandler = require('@joellesenne/express-async-handler')
 const ValidationError = require('@joellesenne/express-validation-error')
 
 express.get('/', asyncHandler(async (req, res, next) => {
-  const bar = await foo.findAll();
-  res.send(bar)
-  // Create errorHandler
-  if (!bar) {
-    return next(new ValidationError("No bar valid", 404));
+  try {
+    const bar = await foo.findAll();
+    if (!bar) {
+      return next(new ValidationError("No bar valid", 404));
+    }
+    res.send(bar)
+  } catch (error) {
+    return next(error);
   }
 }))
 ```

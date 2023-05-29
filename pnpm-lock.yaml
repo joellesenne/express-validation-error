@@ -12,7 +12,7 @@ specifiers:
   chai: 4.3.7
   eslint: 8.39.0
   eslint-config-prettier: 8.8.0
-  eslint-config-standard: 17.0.0
+  eslint-config-standard: 17.1.0
   eslint-plugin-import: 2.27.5
   eslint-plugin-node: 11.1.0
   eslint-plugin-prettier: 4.2.1
@@ -30,7 +30,7 @@ devDependencies:
   chai: 4.3.7
   eslint: 8.39.0
   eslint-config-prettier: 8.8.0_eslint@8.39.0
-  eslint-config-standard: 17.0.0_d2oywsyyv2eyz3wvn2gl572b3m
+  eslint-config-standard: 17.1.0_d2oywsyyv2eyz3wvn2gl572b3m
   eslint-plugin-import: 2.27.5_eslint@8.39.0
   eslint-plugin-node: 11.1.0_eslint@8.39.0
   eslint-plugin-prettier: 4.2.1_5pokp25ua6t5ubushhw3tqituq
@@ -1401,12 +1401,13 @@ packages:
       eslint: 8.39.0
     dev: true
 
-  /eslint-config-standard/17.0.0_d2oywsyyv2eyz3wvn2gl572b3m:
-    resolution: {integrity: sha512-/2ks1GKyqSOkH7JFvXJicu0iMpoojkwB+f5Du/1SC0PtBL+s8v30k9njRZ21pm2drKYm2342jFnGWzttxPmZVg==}
+  /eslint-config-standard/17.1.0_d2oywsyyv2eyz3wvn2gl572b3m:
+    resolution: {integrity: sha512-IwHwmaBNtDK4zDHQukFDW5u/aTb8+meQWZvNFWkiGmbWjD6bqyuSSBxxXKkCftCUzc1zwCH2m/baCNDLGmuO5Q==}
+    engines: {node: '>=12.0.0'}
     peerDependencies:
       eslint: ^8.0.1
       eslint-plugin-import: ^2.25.2
-      eslint-plugin-n: ^15.0.0
+      eslint-plugin-n: '^15.0.0 || ^16.0.0 '
       eslint-plugin-promise: ^6.0.0
     dependencies:
       eslint: 8.39.0
